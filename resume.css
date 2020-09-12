@@ -1,0 +1,35 @@
+﻿
+body {
+    background-color: white;
+    text-align: center;
+    color: black;
+}
+
+nav {
+    background: black;
+    height: 50px;
+}
+
+    nav ul {
+        height: 50px;
+        width: 650px;
+        margin: 0 auto;
+    }
+
+        nav ul li {
+            list-style-type: none;
+            float: left;
+            width: 150px;
+        }
+
+li a {
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    display: block;
+}
+
+    li a:hover {
+        background-color: white;
+        color: black;
+    }

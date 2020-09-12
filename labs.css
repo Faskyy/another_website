@@ -1,0 +1,45 @@
+﻿body {
+    background-color: white;
+    text-align: center;
+    color: darkslateblue;
+}
+
+div {
+    background-color: darkslateblue;
+    color: white;
+    margin-top: 25px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+
+nav {
+    background-color: darkslateblue;
+    height: 50px;
+}
+
+nav ul {
+        height: 50px;
+        width: 650px;
+        margin: 0 auto;
+    }
+
+ nav ul li {
+       list-style-type: none;
+       float: left;
+       width: 150px;
+  }
+
+li a {
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    display: block;
+}
+
+li a:hover {
+        background-color: white;
+        color: black;
+    }
